@@ -1,0 +1,27 @@
+/* .container{
+    margin-inline: auto;
+} */
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.hover-links{
+    color: var(--primary-text-color);
+}
+
+.hover-links:hover{
+    color: var(--accent-color-1);
+    transition: 0.2s ease-out;
+}
+
+.primary-button{
+    background-color: var(--secondary-text-color);
+    color: white;
+    padding: 4px 70px;
+    border-radius: 2px;
+    cursor: pointer;
+}
